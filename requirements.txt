@@ -1,0 +1,8 @@
+numpy
+sentence-transformers
+matplotlib
+seaborn
+pandas
+openai
+python-dotenv
+langchain-ollama

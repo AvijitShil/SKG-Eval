@@ -1,0 +1,158 @@
+[
+    {
+        "id": "slogic_test_1_negation",
+        "description": "Caffeine and Heart Rate",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "What effect does caffeine have on resting heart rate?",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "How long does that effect last?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "Does it elevate my pulse every time I drink it?",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "That contradicts what I read in a medical journal.",
+                "response": ""
+            }
+        ]
+    },
+    {
+        "id": "slogic_test_2_antonym",
+        "description": "Interest Rates and Inflation",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "How do central bank interest rates affect inflation?",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "Does it affect employment levels too?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "What is the primary mechanism regarding prices?",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "I need to review my macroeconomic textbooks.",
+                "response": ""
+            }
+        ]
+    },
+    {
+        "id": "slogic_test_3_numeric",
+        "description": "Martian Moons",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "How many moons does Mars have?",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "Are they large and spherical like Earth's moon?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "Could you remind me of the total count of Martian moons?",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "I thought the number was much lower.",
+                "response": ""
+            }
+        ]
+    },
+    {
+        "id": "slogic_test_4_path_b_exclusive",
+        "description": "Capital of France",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "What is the capital city of France?",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "Is it a nice place to visit?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "Can you remind me what the capital city of France is?",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "I could have sworn you said a different city earlier.",
+                "response": ""
+            }
+        ]
+    },
+    {
+        "id": "slogic_test_5_semantic_drift",
+        "description": "Bakery Output",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "What does a bakery produce?",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "Do they smell good?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "What is the primary output of a bakery?",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "That sounds like heavy industry, not food.",
+                "response": ""
+            }
+        ]
+    },
+    {
+        "id": "slogic_test_6_revision_bypass",
+        "description": "Coffee Brand Slogans",
+        "turns": [
+            {
+                "turn": 1,
+                "prompt": "I am launching a coffee brand. The slogan is 'Morning Spark: Fueling your day'.",
+                "response": ""
+            },
+            {
+                "turn": 2,
+                "prompt": "What kind of target audience does that attract?",
+                "response": ""
+            },
+            {
+                "turn": 3,
+                "prompt": "Please change the slogan to 'Morning Spark: Relax and unwind'.",
+                "response": ""
+            },
+            {
+                "turn": 4,
+                "prompt": "That works much better for my decaf product line.",
+                "response": ""
+            }
+        ]
+    }
+]
