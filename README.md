@@ -1,5 +1,5 @@
 # SKG-Eval
-SKG-Eval: Stateful Evaluation of Multi-Turn Dialogue via Incremental Semantic Knowledge Graphs
+# SKG-Eval: Stateful Evaluation of Multi-Turn Dialogue via Incremental Semantic Knowledge Graphs
 
 # We introduce SKG-Eval, a stateful evaluation framework that uses an incremental Semantic Knowledge Graph to detect cross-turn inconsistency and contradiction in multi-turn dialogue.
 #Abstract:
