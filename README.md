@@ -107,4 +107,6 @@ python visualize_skg.py -i dataset.json -o skg_graph.png
 Per-session conversation history is saved as `history_dataset_<id>.csv`.
 
 ---
+## License
 
+This project is released under the MIT License. See `LICENSE` for details.
