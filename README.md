@@ -7,7 +7,6 @@ Stateful evaluation of multi-turn dialogue using an incremental Semantic Knowled
 ## Requirements
 
 - Python 3.10+
-- [Ollama](https://ollama.com) running locally on `http://127.0.0.1:11434` with your chosen model pulled (default: `gemma4:31b`)
 - An OpenAI-compatible API key for triple extraction (set in `.env`)
 
 Install dependencies:
@@ -78,10 +77,8 @@ python SKG_Eval_main.py -i dataset.json -o results.csv --plot trajectory.png
 | `-i` | Input JSON dataset | required |
 | `-o` | Output CSV file for per-turn and session scores | `results.csv` |
 | `--plot` | Output PNG for the quality trajectory plot | `trajectory.png` |
-| `--model` | Ollama model name | `gemma4:31b` |
-| `--embed-model` | Sentence-transformers model for embeddings | `all-mpnet-base-v2` |
-| `--pass-threshold` | Score threshold to mark a turn as passed | `0.6` |
-| `--trend-lambda` | Weighting for trend slope in final score | `5.0` |
+| `--embed-model` | Sentence-transformers model for embeddings | `all-mpnet-base-v2` | can use any other better embediing model 
+
 
 ---
 
@@ -111,6 +108,3 @@ Per-session conversation history is saved as `history_dataset_<id>.csv`.
 
 ---
 
-## License
-
-See `LICENSE`.
