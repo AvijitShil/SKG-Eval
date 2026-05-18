@@ -1,8 +1,10 @@
 numpy
-sentence-transformers
+pandas
 matplotlib
 seaborn
-pandas
+networkx
+scikit-learn
+sentence-transformers
 openai
 python-dotenv
 langchain-ollama
